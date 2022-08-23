@@ -1,38 +1,76 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  align-items: flex-end;
+  background-image: url('./IMG/001.jpg');
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 100vh;
+  background-attachment: fixed;
+  color: azure;
+
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+width: 90%;
+text-align: center;
+align-items: center;
+
+}
+
+.brend{
+  display: flex;
+  width: 40%;
+  
+}
+
+
+.menu-items{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.brend-name h1{
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.brend-name h6{ 
+  font-size: 20px;
+  font-weight: 100;
+}
+.item{
+  list-style-type: none;
+  color: azure;
+  text-decoration: none;
+}
+
+
+.footer-contanier{
+  display: flex;
+  justify-content: center;
+
+}
+.footer-contanier .navbar{
+  width: 50%;
+  color: rgb(123, 122, 122);
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.footer-contanier .navbar h2{
+  font-weight: 200;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 40px;
 }

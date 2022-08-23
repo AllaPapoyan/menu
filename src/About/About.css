@@ -1,0 +1,157 @@
+.section02 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cont {
+    width: 700px;
+    align-items: center;
+    text-align: center;
+}
+
+.cont h2 {
+    font-size: 30px;
+    padding: 50px 0 20px;
+    font-weight: 400;
+}
+
+.cont p {
+    color: rgb(160, 159, 159);
+    line-height: 1.5;
+    margin: 15px;
+    font-size: 18px;
+}
+
+
+.staf-cont {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.staf {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.person {
+    display: flex;
+    width: 450px;
+    margin: 30px;
+
+}
+
+
+.person-name {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #09C;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+.person-title {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #C39;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.person-about {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(121, 119, 119);
+    margin: 5px;
+}
+
+
+.icons {
+    display: flex;
+    margin: 10px;
+    justify-content: last baseline;
+}
+
+ .icon {
+    margin: 5px;
+    line-height: 1.8;
+}
+
+
+.about-bg{
+    display: flex;
+    justify-content: center;
+    margin: 60px  30px;
+    align-items: center;
+}
+
+.bgimg{
+     width: 95%;
+    height: 40vh;
+    background-image: url('./image_staf/about-05.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+}
+.section_cordinats{
+    display: flex;
+    justify-content: center;
+}
+.cordinats{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+    margin: 40px ;
+}
+.cordinat{
+    width: 300px;
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cordinat p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(121, 119, 119);
+    margin: 5px;
+}
+.iconimg{
+    width: 30%;
+}
+    
+.iconimg img{
+    width: 100%;
+}
+
+.btn1-1{
+    padding: 10px 30px;
+    margin: 30px 20px;
+    background-color: #2D99CC;
+    border: 1px solid #8e8e8e;
+    color: #fff;
+    font-size: 18px;
+}
+.btn1-2{
+    padding: 10px 30px;
+    margin: 30px 20px;
+    background-color: #993332;
+    border: 1px solid #8e8e8e;
+    color: #fff;
+    font-size: 18px;
+}
+.btn1-3{
+    padding: 10px 30px;
+    margin: 30px 20px;
+    background-color: #319966;
+    border: 1px solid #8e8e8e;
+    color: #fff;
+    font-size: 18px;
+}

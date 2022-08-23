@@ -1,0 +1,143 @@
+.beginning {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.walcome {
+    width: 600px;
+    align-items: center;
+    text-align: center;
+}
+
+.walcome h2 {
+    font-size: 30px;
+    padding: 50px 0 20px;
+}
+
+.walcome p {
+    color: rgb(160, 159, 159);
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn0 {
+    padding: 10px 30px;
+    margin: 30px 20px;
+    background-color: #fff;
+    border: 1px solid #2F956D;
+    color: #2F956D;
+    font-size: 18px;
+
+}
+
+.btn0:hover {
+    background-color: #2F956D;
+    color: #fff;
+}
+
+
+.Gal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+
+}
+
+.product {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+
+
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+}
+
+.ingrediets {
+    color: #626364;
+    line-height: 1.8;
+    margin-bottom: 15px;
+
+}
+
+.price {
+    font-size: 1.25rem;
+    color: #2F956D;
+    margin-bottom: 40px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+}
+
+.l-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.lastimg {
+    width: 650px;
+}
+.lastimg img{
+    width: 100%;
+}
+
+.l-text {
+    width: 650px;
+}
+
+.l-text h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+}
+
+.l-text p {
+    color: #626364;
+    line-height: 1.8;
+    margin: 15px 0 115px;
+}
+
+
+.l-button {
+    display: flex;
+    justify-content: flex-end;
+    margin:  40px 20px;
+}
+
+.btn-l{
+    padding: 10px 30px;
+    margin: 30px 20px;
+    background-color: #fff;
+    border: 1px solid #8e8e8e;
+    color: #767978;
+    font-size: 18px;
+}
